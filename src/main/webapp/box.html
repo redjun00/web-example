@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+
+<head lang="ko">
+    <style>
+        /* common */
+        #under-line {
+            /*clear: both;*/
+            border: 1px solid #ddd;
+            border-bottom-color: #b4b4b4;
+            border-width: 1px 0;
+            background: #fff;
+            /*zoom: 1;*/
+        }
+
+        /* layout */
+        .whole_area{
+            border: solid 1px black;
+            width: 80%;
+            height: 1000px;
+            margin: 0px auto;
+            margin-left: 10%;
+            padding: 0px;
+            position: relative;
+        }
+        .logo{
+            border: 1px solid green;
+            margin-right: 30px;
+            padding-left: 6px;
+            padding-right: 30px;
+        }
+        .green_menu{
+            /*border: 1px solid green;*/
+            float: right;
+            padding-right: 6px;
+        }
+        .nav-area{
+            border: solid 1px dimgray;
+            /*display: block;*/
+            clear: both;
+        }
+        .nav-menu{
+            /*border: solid 1px dimgray;*/
+            position: relative;
+            right: 0px;
+        }
+
+
+        .center-area{
+            background: lightblue;
+            width: 100%;
+            height: 60%;
+        }
+        .left-feature-area{
+            border: solid 1px black;
+            width: 60%;
+            height: 100%;
+            float: left;
+        }
+        .right-feature-area{
+            border: solid 1px violet;
+            background: lightgray;
+            width: 39%;
+            height: 100%;
+            float: right;
+        }
+        .full-feature-area{
+            border: solid 1px lightsalmon;
+            width: 100%;
+            height: 30%;
+        }
+        .bottom-area{
+            background: #59748f;
+            width: 100%;
+            height: 5%;
+            margin-top: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="whole_area">
+
+        <div id="under-line">
+            <!--<a href="#" class="logo">logo</a>-->
+            <a href="#" class="green_menu">menu1</a>
+            <a href="#" class="green_menu">menu2</a>
+            <a href="#" class="green_menu">menu3</a>
+            <a href="#" class="green_menu">menu4</a>
+        </div>
+
+        <div class="nav-area">
+            <a href="#" class="logo">logo</a>
+
+            <a href="#" class="nav-menu">major 1</a>
+            <a href="#" class="nav-menu">major 2</a>
+            <a href="#" class="nav-menu">major 3</a>
+            <a href="#" class="nav-menu">major 4</a>
+            <a href="#" class="nav-menu">major 5</a>
+            <a href="#" class="nav-menu">major 6</a>
+        </div>
+
+        <div class="center-area">
+            <div class="left-feature-area">
+                A
+            </div>
+
+            <div class="right-feature-area">
+                B
+            </div>
+        </div>
+        <div class="full-feature-area">
+            C
+        </div>
+        <div class="bottom-area">
+            bottom nav
+        </div>
+    </div>
+</body>
+
+</html>

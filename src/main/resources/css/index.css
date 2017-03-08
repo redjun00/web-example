@@ -1,0 +1,9 @@
+element.style {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    z-index: 11;
+}
+h1{
+    display: inline;
+}
